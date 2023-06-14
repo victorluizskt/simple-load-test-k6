@@ -22,8 +22,8 @@ export let GetCustomerReqs = new Trend('get_customer_reqs');
 export default function () {
   const params = {
     headers: {
-      'login': 'batata',
-      'password': 'batata'
+      'login': '',
+      'password': ''
     },
   };
   let res = http.get('https://suaUrl.com.br', params);
